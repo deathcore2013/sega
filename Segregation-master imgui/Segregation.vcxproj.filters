@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header++">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="C++">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="C++\minhook">
+      <UniqueIdentifier>{27784f29-a12b-4565-88da-fbf0d6fb70a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++\minhook\hde">
+      <UniqueIdentifier>{a3395fc9-10d5-43cb-958f-e1818b26841c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++\imgui">
+      <UniqueIdentifier>{ed535a01-28e0-4194-82e8-12e1afc27388}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entry_Point.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\buffer.cpp">
+      <Filter>C++\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\hook1.cpp">
+      <Filter>C++\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\trampoline.cpp">
+      <Filter>C++\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\hde\hde32.c">
+      <Filter>C++\minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\hde\hde64.c">
+      <Filter>C++\minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>C++\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>C++\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>C++\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>C++\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>Header++</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Draw_Crosshair.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Extended_Interface.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Copy_User_Command.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Post_Entity_Packet_Received.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Send_Move.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_Spread.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Post_Frame.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolate.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Priority.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Sounds.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_Listener.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Update_Animation.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute_Torso_Rotation.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Shutdown.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Bruteforce.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Write_Events.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Setup_Move.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Finish_Move.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Store_Prediction_Results.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute_First_Command_To_Execute.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Fall_Damage.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Precache.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\auto.hpp">
+      <Filter>C++\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\base.hpp">
+      <Filter>C++\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\buffer.hpp">
+      <Filter>C++\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\minhook.hpp">
+      <Filter>C++\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\trampoline.hpp">
+      <Filter>C++\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\win32.hpp">
+      <Filter>C++\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\hde32.h">
+      <Filter>C++\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\hde64.h">
+      <Filter>C++\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\pstdint.h">
+      <Filter>C++\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\table32.h">
+      <Filter>C++\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\table64.h">
+      <Filter>C++\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>C++\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>C++\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>C++\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>C++\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>C++\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>C++\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>C++\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>C++\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Search.hpp">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionIconsQunion.h">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Montserrat-ExtraBold.h">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Montserrat-Medium.h">
+      <Filter>Header++</Filter>
+    </ClInclude>
+    <ClInclude Include="Montserrat-Regular.h">
+      <Filter>Header++</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
